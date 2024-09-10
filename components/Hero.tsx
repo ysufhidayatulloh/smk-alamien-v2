@@ -35,14 +35,14 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg">
-            Al-Amien Vocational School is a vocational secondary education
-            institution which is under the auspices of the AL Amien Islamic
-            Boarding School which is located in Kediri City. Known as a school
-            that is highly committed to education and character development,
-            offering various skills programs that are relevant to the demands of
-            the job market. Modern facilities and supported by qualified
-            teaching staff, this school equips students with practical skills
-            and in-depth knowledge in their respective fields.
+            SMK Al-Amien merupakan lembaga pendidikan menengah kejuruan yang
+            berada di bawah naungan Pondok Pesantren AL Amien yang berlokasi di
+            Kota Kediri. Dikenal sebagai sekolah yang memiliki komitmen tinggi
+            terhadap pendidikan dan pengembangan karakter, menawarkan berbagai
+            program keterampilan yang relevan dengan tuntutan pasar kerja.
+            Dilengkapi dengan fasilitas modern dan didukung oleh tenaga pengajar
+            yang berkualitas, sekolah ini membekali siswa dengan keterampilan
+            praktis dan pengetahuan yang mendalam di bidangnya masing-masing.
           </p>
 
           <div className="w-[40rem] h-40 relative">
@@ -67,11 +67,10 @@ const Hero = () => {
           </div>
 
           <a href="#about">
-            <MagicButton 
-              title="Show About School" 
+            <MagicButton
+              title="Show About School"
               icon={<FaLocationArrow />}
               position="right"
-            
             />
           </a>
         </div>

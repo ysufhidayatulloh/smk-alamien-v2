@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const content = [
   {
-    title: "Vision of Al-Amien High School",
+    title: "Visi SMK Al-Amien",
     description:
-      "The realization of Al-Amien Kediri Vocational School as a vocational education and training institution in the Islamic boarding school environment which is capable of producing graduates who are professional, faithful and devout to fulfill job opportunities.",
+      "Terwujudnya SMK Al-Amien Kediri sebagai lembaga pendidikan dan pelatihan vokasi di lingkungan pondok pesantren yang mampu menghasilkan lulusan yang profesional, beriman dan bertaqwa untuk memenuhi kesempatan kerja.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
@@ -21,9 +21,9 @@ const content = [
     ),
   },
   {
-    title: "Mission of Al-Amien High School",
+    title: "Misi SMK Al-Amien",
     description:
-      "Developing Al-Amien Vocational School into an integrated school with an Islamic boarding school program - Improving the quality of educational facilities and infrastructure and training - Improving the quality of human resources - Providing graduates who are skilled, professional, have life competencies in accordance with the needs of employment and can develop themselves sustainably to improve the standard of living.",
+      "Mengembangkan SMK Al-Amien menjadi sekolah terpadu dengan program pondok pesantren - Meningkatkan kualitas sarana dan prasarana pendidikan serta pelatihan - Meningkatkan kualitas sumber daya manusia - Menyediakan lulusan yang terampil, profesional, memiliki kompetensi hidup sesuai dengan kebutuhan lapangan kerja serta dapat mengembangkan diri secara berkelanjutan untuk meningkatkan taraf hidup.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image

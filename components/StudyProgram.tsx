@@ -14,17 +14,17 @@ const StudyProgram = () => {
   return (
     <div className="py-20" id="studyprogram">
       <h1 className="heading">
-        Al-Amien Vocational School{" "}
-        <span className="text-purple">Study Program</span>
+        Program Studi <span className="text-purple">SMK Al-Amien</span>
       </h1>
       <p className="text-center md:tracking-wider  mt-8 text-sm md:text-lg lg:text-lg">
-        Al-Amien Vocational School is a place full of opportunities and
-        innovation! With three attractive majors, we offer invaluable expertise
-        and knowledge in Computer and Network Engineering (TKJ), Light Vehicle
-        Engineering (TKR), and Motorcycle Engineering (TSM). Here, our students
-        are invited to explore the world of technology, master practical skills,
-        and create a bright future in their chosen field. Join us at our
-        Vocational School and get ready to achieve success in the real world!
+        Sekolah Kejuruan Al-Amien adalah tempat yang penuh dengan peluang dan
+        inovasi! Dengan tiga jurusan yang menarik, kami menawarkan keahlian dan
+        pengetahuan yang tak ternilai dalam Teknik Komputer dan Jaringan (TKJ),
+        Teknik Kendaraan Ringan (TKR), dan Teknik Sepeda Motor (TSM). Di sini,
+        siswa kami diundang untuk menjelajahi dunia teknologi, menguasai
+        keterampilan praktis, dan menciptakan masa depan yang cerah di bidang
+        pilihan mereka. Bergabunglah dengan kami di Sekolah Kejuruan kami dan
+        bersiaplah untuk meraih kesuksesan di dunia nyata!
       </p>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {studyprogram.map(({ id, title, des, img, iconLists, link, name }) => (
@@ -32,10 +32,7 @@ const StudyProgram = () => {
             key={id}
             className=" sm:h-[41rem] h-[32rem] lg:min-h[32.5rem] h-[25rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
-            <PinContainer
-              title={name}
-              href={link}
-            >
+            <PinContainer title={name} href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img src="/bg.png" alt="bg-img" />

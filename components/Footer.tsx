@@ -15,12 +15,12 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your career</span> to the
-          next level?
+          Siap untuk membawa <span className="text-purple">karier Anda</span> ke
+          tingkat berikutnya?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Contact us today and let&apos;s discuss how I can help you achieve
-          your career goals.
+          Hubungi kami hari ini dan mari kita bahas bagaimana saya dapat
+          membantu Anda mencapai tujuan karier Anda.
         </p>
         <a href="mailto:smkalamien.kdr@gmail.com">
           <MagicButton

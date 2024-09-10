@@ -105,14 +105,14 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-15 md:py-40 px-4 w-full left-0 top-0">
       <h1 className="text-2xl md:text-5xl font-bold dark:text-white">
-        The Gallery <br />
-        <span className="text-purple">School Activities</span>
+        Dokumentasi <br />
+        <span className="text-purple">Kegiatan Sekolah</span>
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        At our school, PBB training activities, MPLS openings, and workshops are
-        always held with enthusiasm and enthusiasm, creating a dynamic
-        atmosphere and inspiring a spirit of togetherness and creativity among
-        our students.
+        Di sekolah kami, kegiatan pelatihan PBB, pembukaan MPLS, dan workshop
+        selalu dilaksanakan dengan penuh semangat dan antusias, sehingga
+        tercipta suasana yang dinamis dan menggugah semangat kebersamaan serta
+        kreativitas di antara siswa-siswi kami.
       </p>
     </div>
   );

@@ -9,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "We prioritize student morals, fostering the best communication",
+    title: "Kami mengutamakan akhlak siswa, membina komunikasi yang baik",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -20,7 +20,7 @@ export const gridItems = [
   {
     id: 2,
     title:
-      "Learning begins with discipline in respecting time zone communication",
+      "Pembelajaran dimulai dengan disiplin dalam menghormati zona waktu komunikasi",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -30,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "school technology",
-    description: "we constantly try to improve",
+    title: "Teknologi Sekolah",
+    description: "kami terus berusaha meningkatkan",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -40,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Penggemar teknologi dengan gairah untuk pengembangan.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "absolute right-2 bottom-0 md:w-80 w-40",
@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Wake up your body and soul",
+    title: "Bangunkan tubuh dan jiwa Anda",
     description: "The Inside",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -61,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Join Us at Al-Amien Vocational School.",
+    title: "Bergabunglah dengan kami di Sekolah Kejuruan Al-Amien.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -75,7 +75,7 @@ export const studyprogram = [
   {
     id: 1,
     title: "Teknik Komputer Jaringan",
-    des: "The Department of Computer and Network Engineering (TKJ) at our Vocational School is a vehicle for exploration for prospective future technology experts!",
+    des: "Jurusan Teknik Komputer dan Jaringan (TKJ) Sekolah Kejuruan kami merupakan wahana eksplorasi bagi calon-calon ahli teknologi masa depan!",
     img: "/ImageStudy-Img1 1.svg",
     iconLists: [
       "/ImageTestimony-Img3.svg",
@@ -90,7 +90,7 @@ export const studyprogram = [
   {
     id: 2,
     title: "Teknik Kendaraan Ringan",
-    des: "The Light Vehicle Engineering (TKR) Department at our Vocational School is a place where a love of automotive technology develops into a strong skill",
+    des: "Jurusan Teknik Kendaraan Ringan (TKR) Sekolah Vokasi kami merupakan wadah untuk menumbuhkan kecintaan terhadap teknologi otomotif menjadi sebuah keterampilan yang tangguh",
     img: "/ImageStudy-Img2 1.svg",
     iconLists: [
       "/Image-Img2.svg",
@@ -105,7 +105,7 @@ export const studyprogram = [
   {
     id: 3,
     title: "Teknik Sepeda Motor",
-    des: "The Motorcycle Engineering Department (TSM) at our Vocational School is a place where the passion for blending speed and reliability develops into an amazing skill!",
+    des: "Jurusan Teknik Sepeda Motor (TSM) di Sekolah Kejuruan kami adalah tempat di mana gairah untuk memadukan kecepatan dan keandalan berkembang menjadi keterampilan yang luar biasa!",
     img: "/ImageStudy-Img3 1.svg",
     iconLists: [
       "/ImageTestimony-Img1.svg",
@@ -122,21 +122,21 @@ export const studyprogram = [
 export const testimonials = [
   {
     quote:
-      "Education is a ticket to the future. Tomorrow belongs to those who prepare themselves from today. Come on, go to high school!",
+      "Pendidikan adalah tiket menuju masa depan. Masa depan adalah milik mereka yang mempersiapkan diri sejak hari ini. Ayo, sekolah tinggi!",
     name: "Students Person 1",
     title: "TKJ - Kelas XII",
     img: "/ImageTestimony-Img1.svg",
   },
   {
     quote:
-      "CLearning computer software and hardware is indeed difficult and easy, but you have to persist in mastering it in order to gain skills and knowledge that will support your future!",
+      "Menguasai perangkat lunak dan perangkat keras komputer memang sulit dan mudah, tetapi Anda harus terus berusaha menguasainya agar dapat memperoleh keterampilan dan ilmu yang menunjang masa depan Anda!",
     name: "Student Person 2",
     title: "TKJ - Kelas XI",
     img: "/ImageTestimony-Img2.svg",
   },
   {
     quote:
-      "Never feel inferior about practicing and trying new things related to innovation in the mechanical field. Because this nation's best hope is for you to create the latest innovations for the welfare of society!",
+      "Jangan pernah merasa minder untuk terus berlatih dan mencoba hal-hal baru terkait inovasi di bidang permesinan. Karena harapan terbaik bangsa ini adalah kalian yang mampu menciptakan inovasi-inovasi terbaru demi kesejahteraan masyarakat!",
     name: "Student Person 3",
     title: "TKR - Kelas XII",
     img: "/ImageTestimony-Img3.svg",
